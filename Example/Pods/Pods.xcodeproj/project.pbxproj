@@ -58,6 +58,30 @@
 		24D6D944D9BE2FBFD2EF9AED40F6CD83 /* NUIParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B63B5732AB620732ABF66A39CCD59D0 /* NUIParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2547E4DCB1F41BD5D9BC886DB7AB96A4 /* UIWindow+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 414528EF88AECB2E6CEAE7EA10549DB5 /* UIWindow+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		277F4D2DE8FB29D6B84D820B59886AEE /* NUIDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBB688FE722AD1BDC57FDB9C4CCBF67 /* NUIDeclaration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100A78C2A6BB93EECC32DA584658D5F5 /* NUIPIdentifierToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D69F3154F44A2C0ACFB71398E8B96EB /* NUIPIdentifierToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10837C289D57AA5BED88AC8725C2354C /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD84CEE36F3D0ACE757713E63D477784 /* NUIFileMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1086F7114E7CE8A7D6361EEEF8B5355C /* UISegmentedControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 658756EBB4027B2717B03F574AE50648 /* UISegmentedControl+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		136CF8577D024FA4E4D29AC31BDF4FFB /* NUIPShiftAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 16303C601B0AEF134AEA844F83B95EA9 /* NUIPShiftAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15438D5F96F139A36402BD2F418D5024 /* NUISegmentedControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A660B44115EF38DE4B4DE846755790 /* NUISegmentedControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15DCB71A76DEE6215FC70ABCCCF6BCBB /* UILabel+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730FFDEA0CB200FD36FCF53417FF0C1 /* UILabel+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16954D0477E41A40C6052D870714A329 /* UIToolbar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA002F8D71B26331010DA95F9FAB2AB /* UIToolbar+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16EC9971E2BCB20563B78CA6A4209E80 /* NUIProgressViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FE87F1038F11AA78989825E7DC576C /* NUIProgressViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170EB11A3F22833AD9359327F0DC7356 /* NUIVariableToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9068DCEC7C305FFF60FD7D71F247ADC7 /* NUIVariableToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17AF599EB8FCDBC2C33BE4ACB92A6218 /* NUIPRecoveryAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 43252ACE51B1D85D3217627FC62F02D5 /* NUIPRecoveryAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		184BF8B2DAEF5178B4DBCD4810BD8EFD /* NUIParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D78DA220AACE1D49BA95E773777D2D /* NUIParse.framework */; };
+		1940B877E354F5E4570180F4BC61F6C6 /* NUIMediaOptionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 139B9DC3E6507626AD4D4D4A5CA8280E /* NUIMediaOptionSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19866C9BEABBD6A03F1F6225269E0CE9 /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C558261B6A0BFB1B843D42C59C7BC68D /* UIView+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		199D1D653D09B5D95EF60FB40AA3FCA8 /* Route.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = E6C7FDCFA8FCF309A337C58BAA512D51 /* Route.NUI.nss */; };
+		1B1736688857A6E3EFDCB8CE1DBBC3A8 /* NUIPEOFToken.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB9340D9827BCAABCE9DC4F7BB733B8 /* NUIPEOFToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E8C3ABA9B797B821402356CCB63D315 /* NUISearchBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E36337693658AFA990D91D56F126F6 /* NUISearchBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EC7F29566B0E752247FE5029D057EC0 /* NUIPShiftReduceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C4547AE823E86F8FB991D1155DA7B0 /* NUIPShiftReduceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22463A9A543E69B40A8F012DFEE2AFBE /* NUIWindowRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5180686A2E033B1CD3A619561942E46E /* NUIWindowRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A39DB6483FE53D82EC3685AC9C1090 /* NUIPQuotedToken.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C03F21779EB7B31D59B9139914E253 /* NUIPQuotedToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2563184A5F2624290E7AF67B248967FA /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA96BBCED1FE205E41C305C65ED3DF5 /* UITabBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266196E72F31B3D08583A7C5548DE207 /* NUIPGrammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EB0FE555F943CC3B74121727C04A51 /* NUIPGrammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281D8D8DA8FC271A6F3B3482554F8895 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C20C6C0B164E9827702CA4823021BCF /* Masonry.framework */; };
+		283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */; };
+		283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2995A61D9206BDE5883DB73BF88157DD /* NUIWindowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD169FA9E7880AB5A37A42164D57269 /* NUIWindowRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2D6B686A38307356D558BD3D55DF5D25 /* UITableView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0C49F5410D00746C6F0DE7BA4D0CB3 /* UITableView+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -448,6 +472,8 @@
 		27A660B44115EF38DE4B4DE846755790 /* NUISegmentedControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISegmentedControlRenderer.h; path = NUI/Core/Renderers/NUISegmentedControlRenderer.h; sourceTree = "<group>"; };
 		281B6646D6FE4DF4BEEDAE1A1E637DA6 /* Pods-MoolaLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2833CC4A90E237C9D9E81C779B0B465B /* UILabel+GEM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GEM.m"; sourceTree = "<group>"; };
+		283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		285B0048918489089BFB4CBC7F9C30FA /* NUIPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPJSONParser.h; path = "NUIParse/Built In Parsers/NUIPJSONParser.h"; sourceTree = "<group>"; };
 		2878D567DCA54EA3146D84510BB89978 /* NUIConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIConverter.m; path = NUI/Core/NUIConverter.m; sourceTree = "<group>"; };
 		28D4CC5C2AC9150574DFE680465DE380 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MoolaLib.modulemap; sourceTree = "<group>"; };
@@ -1173,6 +1199,19 @@
 			path = "RNCryptor-objc";
 			sourceTree = "<group>";
 		};
+		6C7E3397BF9A2A9107F44A0B3CEA3BAF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE1BB952EB94034CB561A93B5BB7FF20 /* NavigationTitleControl.h */,
+				F92E53F1244AAAEBB200AEE4930ACB97 /* NavigationTitleControl.m */,
+				ED7DD037FFA957BB566E60966DA52586 /* UIColor+DIS.h */,
+				E01D21C0141474F2FED3FBF6856D5D80 /* UIColor+DIS.m */,
+				283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */,
+				283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		70F7D5FA7EF0B2440161042F23E50684 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1540,6 +1579,7 @@
 				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
 				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
 				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */,
 				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
 				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
 				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
@@ -1762,6 +1802,7 @@
 				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
 				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
 				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */,
 				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
 				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
 				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
