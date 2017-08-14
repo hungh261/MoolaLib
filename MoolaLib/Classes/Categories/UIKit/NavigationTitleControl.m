@@ -95,7 +95,7 @@
     self.bottomTitleLabel.highlightedTextColor = [UIColor lightGrayColor];
     
     self.dropdownImageView = [UIImageView newForAutoLayout];
-    self.dropdownImageView.image = [UIImage imageNamed:@"icon_dropdown_white"];
+    self.dropdownImageView.image = [UIImage imageNamed:@"icon_dropdown_white" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
     [self addSubview:self.dropdownImageView];
     
     [self.topTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
