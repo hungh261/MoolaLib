@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MoolaLib/Classes/**/*"
+  "source_files": "MoolaLib/Classes/**/*",
+  "dependencies": {
+    "RNCryptor-objc": [
+      "~> 3.0"
+    ]
+  }
 }

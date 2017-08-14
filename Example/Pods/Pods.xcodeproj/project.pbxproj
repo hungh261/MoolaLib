@@ -7,33 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052D534C4A7D82AFED66E066DCBACDD5 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BD028FC157BD6A49072EE243F120F6 /* RNCryptor-objc-dummy.m */; };
-		189AB171B9009D3B506F860D0BF39A66 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C455FEA882C2B1D47BD5309840E12C6 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1D9074C9A79A2EAE1143517801A6B70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
-		1E4B22144782DB5FE2AE2CA54234726B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
-		268E8139EE5DDB8C18E50CDD1B68EC25 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A71787B77016A5E75C8FD29DC0B757 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28677FF91F418BC300C12C67 /* NSDate+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 28677FF01F418BC300C12C67 /* NSDate+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28677FFA1F418BC300C12C67 /* NSDate+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28677FF11F418BC300C12C67 /* NSDate+DIS.m */; };
-		28677FFB1F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.h in Headers */ = {isa = PBXBuildFile; fileRef = 28677FF21F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28677FFC1F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.m in Sources */ = {isa = PBXBuildFile; fileRef = 28677FF31F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.m */; };
-		28677FFD1F418BC300C12C67 /* NSString+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 28677FF41F418BC300C12C67 /* NSString+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28677FFE1F418BC300C12C67 /* NSString+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28677FF51F418BC300C12C67 /* NSString+DIS.m */; };
-		28677FFF1F418BC300C12C67 /* UIColor+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 28677FF71F418BC300C12C67 /* UIColor+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		286780001F418BC300C12C67 /* UIColor+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28677FF81F418BC300C12C67 /* UIColor+DIS.m */; };
-		489A1D55491819B770D4AAFDB988E7BB /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6F7E0AD54876185F6A33F997223526 /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57AAC95354D06190490A98235E7BAAB4 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAD9665EA7884DCA19D45E6D506D2EE /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		597202FBF1E155457CDDAAB6CBD4C1B3 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A46714F8F55FD5868E5478925F3DAD7 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		59DCCB878D3193ACB1532AADBF3D0582 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
-		67AF20ADD730E4351B4BF090FEC2DAEF /* MoolaLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9B09CF132E5C25FDD017A90FEF19C9 /* MoolaLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		171CCF44BF4C92B5A1016261B5A81F45 /* NSDate+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D4B627C09FB33BAA1BCAC62C3E9F0F /* NSDate+DIS.m */; };
+		177845B309A137DA4F2AC8F9FFF16D4D /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C455FEA882C2B1D47BD5309840E12C6 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1974152135E7266AD482952195D15F99 /* RNCryptor_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35D66AAC45B3D2BA39114F47CF6BB89 /* RNCryptor_objc.framework */; };
+		19B9714015A621A0409BEE79A25C9263 /* UIColor+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AFB5748D3893D2292AAF0BEC1F62C3 /* UIColor+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19F5B20E065298D22119CBAA1E1C1D4E /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6F7E0AD54876185F6A33F997223526 /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9074C9A79A2EAE1143517801A6B70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F83F11F6B17DBA8A574720E762E9D8 /* Foundation.framework */; };
+		26F2544CCD19CCC8E8A44B9FDF1EEA08 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAD9665EA7884DCA19D45E6D506D2EE /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46305427CAD07C3C89A17304A17FB80E /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A46714F8F55FD5868E5478925F3DAD7 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4B11C1EA94E76921F980C383141FBB1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F83F11F6B17DBA8A574720E762E9D8 /* Foundation.framework */; };
+		4E6601BA33193A0BEF722342CF44C4EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F83F11F6B17DBA8A574720E762E9D8 /* Foundation.framework */; };
+		6B5860051D6D8A54D12AD8542BD08E91 /* NSString+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAA27751FD72A4E3A679CD19661A82D /* NSString+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CED7EDAC669578B677859C33B673707 /* Pods-MoolaLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED7BF4F3E45DF1A6D5B81FFC8536044 /* Pods-MoolaLib_Tests-dummy.m */; };
-		8894EFCC57F9CF4E6EA516CE3A762CEA /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99F5FFAA66D7A7C7D8B2109CF4F14D /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A465DC6A8B9D55F1712EBF671806AD89 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDB58AA8F199A056CBF0C0953372FA /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B10C1964109CCC0D14E52304502CA049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
-		BC68C560B3C76AAFE740022BA55E57D7 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EB12F3BDAF3AE204A6B1A554EACEE2 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D944CDB88A4B2D63E77E9C7019C20C1F /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D40F57D873D38E4BEF57016CD06F1FFA /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DE406FEBB91A71AD455F47525BE8CF03 /* MoolaLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2BB621A74BEF87334EE5D27E49DF5A /* MoolaLib-dummy.m */; };
-		E8DCB27E72B0C38F41A682CBF686E665 /* RNCryptor-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B8F410C032D976960EF36864668C25 /* RNCryptor-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D663F63E68A53722BB6338781F7B280 /* UIColor+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF6D80C9799C1730528ED5CE78467AD /* UIColor+DIS.m */; };
+		6F12962BAB44804AAB5BDAE23949E1E2 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A71787B77016A5E75C8FD29DC0B757 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E2F5462002DB956630408EBB56BE8E /* MoolaLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2BB621A74BEF87334EE5D27E49DF5A /* MoolaLib-dummy.m */; };
+		74E1EC804BC88F16CFF20455DB98618B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49217F2E1C4767429C17727A2573B7F7 /* Security.framework */; };
+		762FD22F4790478F685E067D50440686 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDB58AA8F199A056CBF0C0953372FA /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E57B20C87CA3C1E2811A3DAD18D6039 /* RNCryptor-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B8F410C032D976960EF36864668C25 /* RNCryptor-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EA7451FF2F3AD35F79AEDF540D78BD /* NSDate+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EE07DD8E5D1C774599C27C7F72FD55 /* NSDate+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8439A6891F419B7E005BC0CC /* NSDecimalNumber+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8439A6851F419B7E005BC0CC /* NSDecimalNumber+category.h */; };
+		8439A68A1F419B7E005BC0CC /* NSDecimalNumber+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439A6861F419B7E005BC0CC /* NSDecimalNumber+category.m */; };
+		8439A68B1F419B7E005BC0CC /* NSDecimalNumberHandler+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8439A6871F419B7E005BC0CC /* NSDecimalNumberHandler+category.h */; };
+		8439A68C1F419B7E005BC0CC /* NSDecimalNumberHandler+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439A6881F419B7E005BC0CC /* NSDecimalNumberHandler+category.m */; };
+		8439A68F1F419CFD005BC0CC /* NSLocale+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8439A68D1F419CFD005BC0CC /* NSLocale+category.h */; };
+		8439A6901F419CFD005BC0CC /* NSLocale+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439A68E1F419CFD005BC0CC /* NSLocale+category.m */; };
+		8439A6941F419EB4005BC0CC /* CurrencyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8439A6921F419EB4005BC0CC /* CurrencyHelper.h */; };
+		8439A6951F419EB4005BC0CC /* CurrencyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439A6931F419EB4005BC0CC /* CurrencyHelper.m */; };
+		9BFED4F0D988265AFC4AF037267BB16A /* UILabel+GEM.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B46900FDEDB135813F0A947E61F30B /* UILabel+GEM.m */; };
+		A53EC970371D541F550C2149F538059F /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D40F57D873D38E4BEF57016CD06F1FFA /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AD014B3840A92FC8EC8035A3C7BAC033 /* NSString+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB766F6406662FB86FE7EA776C57815 /* NSString+DIS.m */; };
+		AE5534AF343AA027319D08D8039AC7E3 /* UILabel+GEM.h in Headers */ = {isa = PBXBuildFile; fileRef = 1597DBEE7D5986860EEDDF6978832C85 /* UILabel+GEM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7976EB97F864C00DB8C3DD2CB233FB /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99F5FFAA66D7A7C7D8B2109CF4F14D /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7A0DDA6AF0A8F1AAB843A84FB4D88D9 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EB12F3BDAF3AE204A6B1A554EACEE2 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EB26E70CE2E262B8518CECF10EFF91 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BD028FC157BD6A49072EE243F120F6 /* RNCryptor-objc-dummy.m */; };
+		D7B122A4383DA69ED347933C475C5DB4 /* NSMutableAttributedString+Hightlighted.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F2477484ED1ED53C11435D35ECFD74 /* NSMutableAttributedString+Hightlighted.m */; };
+		F2B80DC66F5611331674250943CCA80D /* MoolaLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9B09CF132E5C25FDD017A90FEF19C9 /* MoolaLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F55C27EDFC9580F3FE4F434BE32614B9 /* Pods-MoolaLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324EB55C691391A11AE9F9C9CF1048F1 /* Pods-MoolaLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA75E242C9242DF3B90997C2D1E310AB /* NSMutableAttributedString+Hightlighted.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC707154A18B93671125C0E90EA6863 /* NSMutableAttributedString+Hightlighted.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,34 +52,34 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD4DE3678366F8F0F97F8E0D3D3F0D73;
+			remoteGlobalIDString = F09EF6153161E560D4E873D5C0E17213;
 			remoteInfo = "RNCryptor-objc";
 		};
 		9413E71B2ECE6A2CF1C2B3BC2E465718 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A07747C9603859B2D0CD2D02187589B;
+			remoteGlobalIDString = C1834B52ECB4F14825B3253896533839;
 			remoteInfo = MoolaLib;
+		};
+		A1AFE2A07D5AF8073658B457B423E469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09EF6153161E560D4E873D5C0E17213;
+			remoteInfo = "RNCryptor-objc";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08F1CA4E729EE340181E5A21390D7EF9 /* Pods-MoolaLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoolaLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1597DBEE7D5986860EEDDF6978832C85 /* UILabel+GEM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+GEM.h"; sourceTree = "<group>"; };
 		18A71787B77016A5E75C8FD29DC0B757 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
 		1A46714F8F55FD5868E5478925F3DAD7 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
 		281B6646D6FE4DF4BEEDAE1A1E637DA6 /* Pods-MoolaLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		28677FF01F418BC300C12C67 /* NSDate+DIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DIS.h"; sourceTree = "<group>"; };
-		28677FF11F418BC300C12C67 /* NSDate+DIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DIS.m"; sourceTree = "<group>"; };
-		28677FF21F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Hightlighted.h"; sourceTree = "<group>"; };
-		28677FF31F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Hightlighted.m"; sourceTree = "<group>"; };
-		28677FF41F418BC300C12C67 /* NSString+DIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DIS.h"; sourceTree = "<group>"; };
-		28677FF51F418BC300C12C67 /* NSString+DIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DIS.m"; sourceTree = "<group>"; };
-		28677FF71F418BC300C12C67 /* UIColor+DIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DIS.h"; sourceTree = "<group>"; };
-		28677FF81F418BC300C12C67 /* UIColor+DIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DIS.m"; sourceTree = "<group>"; };
 		324EB55C691391A11AE9F9C9CF1048F1 /* Pods-MoolaLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoolaLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3430C4E05A77B01B0FF0D6513CC727C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49217F2E1C4767429C17727A2573B7F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		4B2BB621A74BEF87334EE5D27E49DF5A /* MoolaLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoolaLib-dummy.m"; sourceTree = "<group>"; };
 		4CB7D7E63DBE1F7FF3EDA1F60AA24285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE490B6C0277B66C4A4F5C4CEB5E095 /* RNCryptor_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNCryptor_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,45 +88,64 @@
 		5DCDB58AA8F199A056CBF0C0953372FA /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
 		6079926CC3891B1A91BF13F6A4DD69DE /* MoolaLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoolaLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B8F410C032D976960EF36864668C25 /* RNCryptor-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-umbrella.h"; sourceTree = "<group>"; };
+		65B46900FDEDB135813F0A947E61F30B /* UILabel+GEM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GEM.m"; sourceTree = "<group>"; };
 		707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoolaLib.xcconfig; sourceTree = "<group>"; };
+		75AFB5748D3893D2292AAF0BEC1F62C3 /* UIColor+DIS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+DIS.h"; sourceTree = "<group>"; };
 		771DCD7CDF8A70A85B266386B8C8D422 /* RNCryptor-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.xcconfig"; sourceTree = "<group>"; };
+		79D4B627C09FB33BAA1BCAC62C3E9F0F /* NSDate+DIS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DIS.m"; sourceTree = "<group>"; };
 		7C455FEA882C2B1D47BD5309840E12C6 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
 		7D99F5FFAA66D7A7C7D8B2109CF4F14D /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		8439A6851F419B7E005BC0CC /* NSDecimalNumber+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+category.h"; sourceTree = "<group>"; };
+		8439A6861F419B7E005BC0CC /* NSDecimalNumber+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+category.m"; sourceTree = "<group>"; };
+		8439A6871F419B7E005BC0CC /* NSDecimalNumberHandler+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumberHandler+category.h"; sourceTree = "<group>"; };
+		8439A6881F419B7E005BC0CC /* NSDecimalNumberHandler+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumberHandler+category.m"; sourceTree = "<group>"; };
+		8439A68D1F419CFD005BC0CC /* NSLocale+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+category.h"; sourceTree = "<group>"; };
+		8439A68E1F419CFD005BC0CC /* NSLocale+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+category.m"; sourceTree = "<group>"; };
+		8439A6921F419EB4005BC0CC /* CurrencyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyHelper.h; sourceTree = "<group>"; };
+		8439A6931F419EB4005BC0CC /* CurrencyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyHelper.m; sourceTree = "<group>"; };
+		88F83F11F6B17DBA8A574720E762E9D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		89127F1A88C2AD979834FB284D913DF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97CC71D7C112F591A7F098C1C2BC740C /* MoolaLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoolaLib-prefix.pch"; sourceTree = "<group>"; };
 		9DE24D25F5495D0E1BE3BC164EFE689C /* Pods_MoolaLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoolaLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAA27751FD72A4E3A679CD19661A82D /* NSString+DIS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DIS.h"; sourceTree = "<group>"; };
+		AFF6D80C9799C1730528ED5CE78467AD /* UIColor+DIS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DIS.m"; sourceTree = "<group>"; };
 		B04279D56A771BBFADF96942A0FA6504 /* Pods-MoolaLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoolaLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3F2477484ED1ED53C11435D35ECFD74 /* NSMutableAttributedString+Hightlighted.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Hightlighted.m"; sourceTree = "<group>"; };
 		B5D7E00CB310253619021BE04EF32F24 /* Pods-MoolaLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		CA9B09CF132E5C25FDD017A90FEF19C9 /* MoolaLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoolaLib-umbrella.h"; sourceTree = "<group>"; };
 		CADB202A1DF9D064EA546F3E3E0EB960 /* Pods-MoolaLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoolaLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0EB12F3BDAF3AE204A6B1A554EACEE2 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		D35D66AAC45B3D2BA39114F47CF6BB89 /* RNCryptor_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNCryptor_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B1E44384A9F0C14FE9E3BD62CE355 /* RNCryptor-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "RNCryptor-objc.modulemap"; sourceTree = "<group>"; };
 		D40F57D873D38E4BEF57016CD06F1FFA /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
 		D5A52F018987719CDB4820DC9C5ACF58 /* Pods-MoolaLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoolaLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB766F6406662FB86FE7EA776C57815 /* NSString+DIS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DIS.m"; sourceTree = "<group>"; };
+		DDC707154A18B93671125C0E90EA6863 /* NSMutableAttributedString+Hightlighted.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Hightlighted.h"; sourceTree = "<group>"; };
 		DDF4BB04899AC14801FF2031CB2036A7 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoolaLib.modulemap; sourceTree = "<group>"; };
 		DE38565C0AAF6154E778EB9F50ACE875 /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
 		DED7BF4F3E45DF1A6D5B81FFC8536044 /* Pods-MoolaLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoolaLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		EA9493DF049DEF065FEA17B0C0B49270 /* Pods-MoolaLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MoolaLib_Tests.modulemap"; sourceTree = "<group>"; };
 		EEAD9665EA7884DCA19D45E6D506D2EE /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		F4EE07DD8E5D1C774599C27C7F72FD55 /* NSDate+DIS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+DIS.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33250C44CEE94B98DF9550E3A3EDD8CF /* Frameworks */ = {
+		13CE27800CADDF03C95C974846CD010D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10C1964109CCC0D14E52304502CA049 /* Foundation.framework in Frameworks */,
+				4B11C1EA94E76921F980C383141FBB1A /* Foundation.framework in Frameworks */,
+				1974152135E7266AD482952195D15F99 /* RNCryptor_objc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9969874E305D281417992886F7DE3571 /* Frameworks */ = {
+		7BB13EDAF22550D45D5A104E28E5BD8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4B22144782DB5FE2AE2CA54234726B /* Foundation.framework in Frameworks */,
-				59DCCB878D3193ACB1532AADBF3D0582 /* Security.framework in Frameworks */,
+				4E6601BA33193A0BEF722342CF44C4EF /* Foundation.framework in Frameworks */,
+				74E1EC804BC88F16CFF20455DB98618B /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,35 +168,22 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		28677FEE1F418BC300C12C67 /* Categories */ = {
+		0C9456A8AC6A60223DA963884991C04E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				28677FEF1F418BC300C12C67 /* Foundation */,
-				28677FF61F418BC300C12C67 /* UIKit */,
+				ADE0E35A1B4BE9156500BA54EEEC9761 /* Foundation */,
+				D1E27827E97F493F78B365B1ED4009A2 /* UIKit */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		28677FEF1F418BC300C12C67 /* Foundation */ = {
+		1BA4FB3EDA87F607194AB6B169224B15 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28677FF01F418BC300C12C67 /* NSDate+DIS.h */,
-				28677FF11F418BC300C12C67 /* NSDate+DIS.m */,
-				28677FF21F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.h */,
-				28677FF31F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.m */,
-				28677FF41F418BC300C12C67 /* NSString+DIS.h */,
-				28677FF51F418BC300C12C67 /* NSString+DIS.m */,
+				8439A6911F419E8B005BC0CC /* Helper */,
+				0C9456A8AC6A60223DA963884991C04E /* Categories */,
 			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		28677FF61F418BC300C12C67 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				28677FF71F418BC300C12C67 /* UIColor+DIS.h */,
-				28677FF81F418BC300C12C67 /* UIColor+DIS.m */,
-			);
-			path = UIKit;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3B91AB6068E980E564A76B9221507870 /* Support Files */ = {
@@ -181,22 +198,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MoolaLib";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4F990579C2E52276FD3C28227B49D60B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		45E57093FE433129A69BFD710F4934EE /* MoolaLib */ = {
-			isa = PBXGroup;
-			children = (
-				87ADC8BD5950B20EA5011BBE45EF094C /* Classes */,
-			);
-			path = MoolaLib;
 			sourceTree = "<group>";
 		};
 		49A59657F91C00A001536A9BF6D8B716 /* Pods-MoolaLib_Tests */ = {
@@ -217,15 +218,6 @@
 			path = "Target Support Files/Pods-MoolaLib_Tests";
 			sourceTree = "<group>";
 		};
-		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
-				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		79D24300FEC713331AD21E73FD034804 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,19 +233,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				057CC8F2B23D780333B3442DB59FBE32 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9ABBF82B1717067D39F9E6569EF71742 /* Frameworks */,
 				E6A1441FD1E13E926EADF9F0330C42C0 /* Pods */,
 				79D24300FEC713331AD21E73FD034804 /* Products */,
 				A75044FCA618C25F87A5D61183F8F708 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87ADC8BD5950B20EA5011BBE45EF094C /* Classes */ = {
+		8439A6911F419E8B005BC0CC /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				28677FEE1F418BC300C12C67 /* Categories */,
+				8439A6921F419EB4005BC0CC /* CurrencyHelper.h */,
+				8439A6931F419EB4005BC0CC /* CurrencyHelper.m */,
 			);
-			path = Classes;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		8D2E2414E6548760970D98C7F5387CB6 /* RNCryptor-objc */ = {
@@ -273,6 +266,15 @@
 			path = "RNCryptor-objc";
 			sourceTree = "<group>";
 		};
+		9ABBF82B1717067D39F9E6569EF71742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35D66AAC45B3D2BA39114F47CF6BB89 /* RNCryptor_objc.framework */,
+				B6ACAB3DDD4547CBC5346AE7EB5D8947 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A75044FCA618C25F87A5D61183F8F708 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,14 +283,61 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		ADE0E35A1B4BE9156500BA54EEEC9761 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8439A6851F419B7E005BC0CC /* NSDecimalNumber+category.h */,
+				8439A6861F419B7E005BC0CC /* NSDecimalNumber+category.m */,
+				8439A6871F419B7E005BC0CC /* NSDecimalNumberHandler+category.h */,
+				8439A6881F419B7E005BC0CC /* NSDecimalNumberHandler+category.m */,
+				F4EE07DD8E5D1C774599C27C7F72FD55 /* NSDate+DIS.h */,
+				79D4B627C09FB33BAA1BCAC62C3E9F0F /* NSDate+DIS.m */,
+				DDC707154A18B93671125C0E90EA6863 /* NSMutableAttributedString+Hightlighted.h */,
+				B3F2477484ED1ED53C11435D35ECFD74 /* NSMutableAttributedString+Hightlighted.m */,
+				AAAA27751FD72A4E3A679CD19661A82D /* NSString+DIS.h */,
+				DAB766F6406662FB86FE7EA776C57815 /* NSString+DIS.m */,
+				8439A68D1F419CFD005BC0CC /* NSLocale+category.h */,
+				8439A68E1F419CFD005BC0CC /* NSLocale+category.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B19D8D6243C7F1D85F8E4729B350A7F2 /* MoolaLib */ = {
+			isa = PBXGroup;
+			children = (
+				1BA4FB3EDA87F607194AB6B169224B15 /* Classes */,
+			);
+			path = MoolaLib;
+			sourceTree = "<group>";
+		};
+		B6ACAB3DDD4547CBC5346AE7EB5D8947 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				88F83F11F6B17DBA8A574720E762E9D8 /* Foundation.framework */,
+				49217F2E1C4767429C17727A2573B7F7 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		CA8726E3C22CA10DED0A6EA5B0368FBB /* MoolaLib */ = {
 			isa = PBXGroup;
 			children = (
-				45E57093FE433129A69BFD710F4934EE /* MoolaLib */,
+				B19D8D6243C7F1D85F8E4729B350A7F2 /* MoolaLib */,
 				3B91AB6068E980E564A76B9221507870 /* Support Files */,
 			);
 			name = MoolaLib;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		D1E27827E97F493F78B365B1ED4009A2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				75AFB5748D3893D2292AAF0BEC1F62C3 /* UIColor+DIS.h */,
+				AFF6D80C9799C1730528ED5CE78467AD /* UIColor+DIS.m */,
+				1597DBEE7D5986860EEDDF6978832C85 /* UILabel+GEM.h */,
+				65B46900FDEDB135813F0A947E61F30B /* UILabel+GEM.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		E6A1441FD1E13E926EADF9F0330C42C0 /* Pods */ = {
@@ -316,18 +365,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29E49FF5069A0D7C011B64FD47F92364 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28677FFB1F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.h in Headers */,
-				28677FF91F418BC300C12C67 /* NSDate+DIS.h in Headers */,
-				67AF20ADD730E4351B4BF090FEC2DAEF /* MoolaLib-umbrella.h in Headers */,
-				28677FFF1F418BC300C12C67 /* UIColor+DIS.h in Headers */,
-				28677FFD1F418BC300C12C67 /* NSString+DIS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B21BA941DE88C258AC29DE7A1404B055 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,54 +373,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B783D1F4000F42E470953FF4ED6EAC2F /* Headers */ = {
+		F60069B7938CBEC92BBB7861826690BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D944CDB88A4B2D63E77E9C7019C20C1F /* RNCryptor+Private.h in Headers */,
-				E8DCB27E72B0C38F41A682CBF686E665 /* RNCryptor-objc-umbrella.h in Headers */,
-				BC68C560B3C76AAFE740022BA55E57D7 /* RNCryptor.h in Headers */,
-				597202FBF1E155457CDDAAB6CBD4C1B3 /* RNCryptorEngine.h in Headers */,
-				489A1D55491819B770D4AAFDB988E7BB /* RNDecryptor.h in Headers */,
-				268E8139EE5DDB8C18E50CDD1B68EC25 /* RNEncryptor.h in Headers */,
+				F2B80DC66F5611331674250943CCA80D /* MoolaLib-umbrella.h in Headers */,
+				82EA7451FF2F3AD35F79AEDF540D78BD /* NSDate+DIS.h in Headers */,
+				FA75E242C9242DF3B90997C2D1E310AB /* NSMutableAttributedString+Hightlighted.h in Headers */,
+				6B5860051D6D8A54D12AD8542BD08E91 /* NSString+DIS.h in Headers */,
+				8439A6891F419B7E005BC0CC /* NSDecimalNumber+category.h in Headers */,
+				8439A68B1F419B7E005BC0CC /* NSDecimalNumberHandler+category.h in Headers */,
+				19B9714015A621A0409BEE79A25C9263 /* UIColor+DIS.h in Headers */,
+				8439A68F1F419CFD005BC0CC /* NSLocale+category.h in Headers */,
+				AE5534AF343AA027319D08D8039AC7E3 /* UILabel+GEM.h in Headers */,
+				8439A6941F419EB4005BC0CC /* CurrencyHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A389E7959A07F72A4DD9DC63F2B6E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53EC970371D541F550C2149F538059F /* RNCryptor+Private.h in Headers */,
+				7E57B20C87CA3C1E2811A3DAD18D6039 /* RNCryptor-objc-umbrella.h in Headers */,
+				C7A0DDA6AF0A8F1AAB843A84FB4D88D9 /* RNCryptor.h in Headers */,
+				46305427CAD07C3C89A17304A17FB80E /* RNCryptorEngine.h in Headers */,
+				19F5B20E065298D22119CBAA1E1C1D4E /* RNDecryptor.h in Headers */,
+				6F12962BAB44804AAB5BDAE23949E1E2 /* RNEncryptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3A07747C9603859B2D0CD2D02187589B /* MoolaLib */ = {
+		C1834B52ECB4F14825B3253896533839 /* MoolaLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03249CF3E0EFFB6334E3A9F96B939300 /* Build configuration list for PBXNativeTarget "MoolaLib" */;
+			buildConfigurationList = E254947E5DF56CA88C89AEFB3C392E36 /* Build configuration list for PBXNativeTarget "MoolaLib" */;
 			buildPhases = (
-				77372848E8DF3B05E3F1DBD61EDE59C9 /* Sources */,
-				33250C44CEE94B98DF9550E3A3EDD8CF /* Frameworks */,
-				29E49FF5069A0D7C011B64FD47F92364 /* Headers */,
+				64C2188273CB2651913A261547026CA2 /* Sources */,
+				13CE27800CADDF03C95C974846CD010D /* Frameworks */,
+				F60069B7938CBEC92BBB7861826690BA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B34D230F6EDA0D6B9C9A4864D4E7601F /* PBXTargetDependency */,
 			);
 			name = MoolaLib;
 			productName = MoolaLib;
 			productReference = 6079926CC3891B1A91BF13F6A4DD69DE /* MoolaLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD4DE3678366F8F0F97F8E0D3D3F0D73 /* RNCryptor-objc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 95086D78A209CD732CD678608D422E1C /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
-			buildPhases = (
-				1EFB5B62D951C238BA51EB952984921F /* Sources */,
-				9969874E305D281417992886F7DE3571 /* Frameworks */,
-				B783D1F4000F42E470953FF4ED6EAC2F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "RNCryptor-objc";
-			productName = "RNCryptor-objc";
-			productReference = 4EE490B6C0277B66C4A4F5C4CEB5E095 /* RNCryptor_objc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DE297518A59C956EF69E71468BD9576B /* Pods-MoolaLib_Tests */ = {
@@ -403,6 +441,23 @@
 			name = "Pods-MoolaLib_Tests";
 			productName = "Pods-MoolaLib_Tests";
 			productReference = 9DE24D25F5495D0E1BE3BC164EFE689C /* Pods_MoolaLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F09EF6153161E560D4E873D5C0E17213 /* RNCryptor-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB063CBCC9ECE4E25FABBB927A3F2489 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
+			buildPhases = (
+				B5EE73DA6E5839AA753830C3510F5060 /* Sources */,
+				7BB13EDAF22550D45D5A104E28E5BD8A /* Frameworks */,
+				F9A389E7959A07F72A4DD9DC63F2B6E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNCryptor-objc";
+			productName = "RNCryptor-objc";
+			productReference = 4EE490B6C0277B66C4A4F5C4CEB5E095 /* RNCryptor_objc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -426,35 +481,40 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A07747C9603859B2D0CD2D02187589B /* MoolaLib */,
+				C1834B52ECB4F14825B3253896533839 /* MoolaLib */,
 				DE297518A59C956EF69E71468BD9576B /* Pods-MoolaLib_Tests */,
-				CD4DE3678366F8F0F97F8E0D3D3F0D73 /* RNCryptor-objc */,
+				F09EF6153161E560D4E873D5C0E17213 /* RNCryptor-objc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1EFB5B62D951C238BA51EB952984921F /* Sources */ = {
+		64C2188273CB2651913A261547026CA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052D534C4A7D82AFED66E066DCBACDD5 /* RNCryptor-objc-dummy.m in Sources */,
-				57AAC95354D06190490A98235E7BAAB4 /* RNCryptor.m in Sources */,
-				8894EFCC57F9CF4E6EA516CE3A762CEA /* RNCryptorEngine.m in Sources */,
-				A465DC6A8B9D55F1712EBF671806AD89 /* RNDecryptor.m in Sources */,
-				189AB171B9009D3B506F860D0BF39A66 /* RNEncryptor.m in Sources */,
+				70E2F5462002DB956630408EBB56BE8E /* MoolaLib-dummy.m in Sources */,
+				8439A68A1F419B7E005BC0CC /* NSDecimalNumber+category.m in Sources */,
+				171CCF44BF4C92B5A1016261B5A81F45 /* NSDate+DIS.m in Sources */,
+				D7B122A4383DA69ED347933C475C5DB4 /* NSMutableAttributedString+Hightlighted.m in Sources */,
+				8439A6951F419EB4005BC0CC /* CurrencyHelper.m in Sources */,
+				8439A6901F419CFD005BC0CC /* NSLocale+category.m in Sources */,
+				8439A68C1F419B7E005BC0CC /* NSDecimalNumberHandler+category.m in Sources */,
+				AD014B3840A92FC8EC8035A3C7BAC033 /* NSString+DIS.m in Sources */,
+				6D663F63E68A53722BB6338781F7B280 /* UIColor+DIS.m in Sources */,
+				9BFED4F0D988265AFC4AF037267BB16A /* UILabel+GEM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77372848E8DF3B05E3F1DBD61EDE59C9 /* Sources */ = {
+		B5EE73DA6E5839AA753830C3510F5060 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28677FFE1F418BC300C12C67 /* NSString+DIS.m in Sources */,
-				DE406FEBB91A71AD455F47525BE8CF03 /* MoolaLib-dummy.m in Sources */,
-				28677FFC1F418BC300C12C67 /* NSMutableAttributedString+Hightlighted.m in Sources */,
-				286780001F418BC300C12C67 /* UIColor+DIS.m in Sources */,
-				28677FFA1F418BC300C12C67 /* NSDate+DIS.m in Sources */,
+				D0EB26E70CE2E262B8518CECF10EFF91 /* RNCryptor-objc-dummy.m in Sources */,
+				26F2544CCD19CCC8E8A44B9FDF1EEA08 /* RNCryptor.m in Sources */,
+				BC7976EB97F864C00DB8C3DD2CB233FB /* RNCryptorEngine.m in Sources */,
+				762FD22F4790478F685E067D50440686 /* RNDecryptor.m in Sources */,
+				177845B309A137DA4F2AC8F9FFF16D4D /* RNEncryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,50 +532,24 @@
 		7F0E26EF49E9E975AE9F16F561A34DE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RNCryptor-objc";
-			target = CD4DE3678366F8F0F97F8E0D3D3F0D73 /* RNCryptor-objc */;
+			target = F09EF6153161E560D4E873D5C0E17213 /* RNCryptor-objc */;
 			targetProxy = 24130A8D18901A5162C1531F8290D898 /* PBXContainerItemProxy */;
+		};
+		B34D230F6EDA0D6B9C9A4864D4E7601F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RNCryptor-objc";
+			target = F09EF6153161E560D4E873D5C0E17213 /* RNCryptor-objc */;
+			targetProxy = A1AFE2A07D5AF8073658B457B423E469 /* PBXContainerItemProxy */;
 		};
 		F296122FF5FCA71F8D2C1D963F84F71A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MoolaLib;
-			target = 3A07747C9603859B2D0CD2D02187589B /* MoolaLib */;
+			target = C1834B52ECB4F14825B3253896533839 /* MoolaLib */;
 			targetProxy = 9413E71B2ECE6A2CF1C2B3BC2E465718 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		144A66DD5DD8FE553AD360BB6CB8B14F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 771DCD7CDF8A70A85B266386B8C8D422 /* RNCryptor-objc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RNCryptor_objc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,41 +598,9 @@
 			};
 			name = Debug;
 		};
-		43B87311B0EF850CFD5AD008F4FB5168 /* Release */ = {
+		56B0950AD1B6450189FD5047D8B1B163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 771DCD7CDF8A70A85B266386B8C8D422 /* RNCryptor-objc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RNCryptor_objc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5EAB9AB788468EFBA8026211FB9D2644 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -612,14 +614,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MoolaLib/MoolaLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MoolaLib/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MoolaLib/MoolaLib.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MoolaLib;
+				PRODUCT_NAME = RNCryptor_objc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -708,6 +710,70 @@
 			};
 			name = Release;
 		};
+		76695C441E56BFF5AE2CD93DFE3B7450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771DCD7CDF8A70A85B266386B8C8D422 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RNCryptor_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8725626FD27CF4F1C9D76126C3A4948A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MoolaLib/MoolaLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MoolaLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MoolaLib/MoolaLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MoolaLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E0824E9205C3F27E696CA0B56A12222E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08F1CA4E729EE340181E5A21390D7EF9 /* Pods-MoolaLib_Tests.release.xcconfig */;
@@ -744,7 +810,7 @@
 			};
 			name = Release;
 		};
-		F4DA26B8072DD667F3516723074B9C96 /* Release */ = {
+		E7A0628B7FFF899952A3E524D0339BAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */;
 			buildSettings = {
@@ -779,15 +845,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03249CF3E0EFFB6334E3A9F96B939300 /* Build configuration list for PBXNativeTarget "MoolaLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5EAB9AB788468EFBA8026211FB9D2644 /* Debug */,
-				F4DA26B8072DD667F3516723074B9C96 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -797,20 +854,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95086D78A209CD732CD678608D422E1C /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				144A66DD5DD8FE553AD360BB6CB8B14F /* Debug */,
-				43B87311B0EF850CFD5AD008F4FB5168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AA4ABC9C557EEA1E9A96A8A9869C54CA /* Build configuration list for PBXNativeTarget "Pods-MoolaLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68399FCA83FB172DBAE7325504236321 /* Debug */,
 				E0824E9205C3F27E696CA0B56A12222E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB063CBCC9ECE4E25FABBB927A3F2489 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B0950AD1B6450189FD5047D8B1B163 /* Debug */,
+				76695C441E56BFF5AE2CD93DFE3B7450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E254947E5DF56CA88C89AEFB3C392E36 /* Build configuration list for PBXNativeTarget "MoolaLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8725626FD27CF4F1C9D76126C3A4948A /* Debug */,
+				E7A0628B7FFF899952A3E524D0339BAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
