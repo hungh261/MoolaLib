@@ -514,38 +514,6 @@ static NSCharacterSet *unwantedCharacters;
     return [self requireTextWithMainFont:font mainTextColor:color hightlightedText:hText appendText:aText hightlightedTextColor:[UIColor redColor]];
 }
 
-- (NSAttributedString *)requireTextStyle1WithMainNuiClass:(NSString *)nuiClass {
-    UIFont *font;
-    UIColor * color;
-    font = [NUISettings getFontWithClass:nuiClass];
-    color = [UIColor colorWithHexString:@"D4D4D8"];
-    return [self requireTextWithMainFont:font mainTextColor:color hightlightedText:@"\\*" appendText:@" *:"];
-}
-
-- (NSAttributedString *)requireTextStyle2WithMainNuiClass:(NSString *)nuiClass {
-    UIFont *font;
-    UIColor * color;
-    font = [NUISettings getFontWithClass:nuiClass];
-    color = [UIColor colorWithHexString:@"D4D4D8"];
-    return [self requireTextWithMainFont:font mainTextColor:color hightlightedText:@"\\*" appendText:@" *"];
-}
-
-- (NSAttributedString *)disableRequireTextStyle1WithMainNuiClass:(NSString *)nuiClass {
-    UIFont *font;
-    UIColor * color;
-    font = [NUISettings getFontWithClass:nuiClass];
-    color = [NUISettings getColor:@"font-color" withClass:nuiClass];
-    return [self requireTextWithMainFont:font mainTextColor:color hightlightedText:@"\\*" appendText:@" *:" hightlightedTextColor:color];
-}
-
-- (NSAttributedString *)disableRequireTextStyle2WithMainNuiClass:(NSString *)nuiClass {
-    UIFont *font;
-    UIColor * color;
-    font = [NUISettings getFontWithClass:nuiClass];
-    color = [NUISettings getColor:@"font-color" withClass:nuiClass];
-    return [self requireTextWithMainFont:font mainTextColor:color hightlightedText:@"\\*" appendText:@" *" hightlightedTextColor:color];
-}
-
 @end
 
 @implementation NSString (Convertion)

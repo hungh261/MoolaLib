@@ -136,11 +136,6 @@
 - (NSAttributedString *)requireTextWithMainFont:(UIFont *)font mainTextColor:(UIColor *)color hightlightedText:(NSString *)hText appendText:(NSString *)aText;
 - (NSAttributedString *)requireTextWithMainFont:(UIFont *)font mainTextColor:(UIColor *)color hightlightedText:(NSString *)hText appendText:(NSString *)aText hightlightedTextColor:(UIColor *)hColor;
 
-- (NSAttributedString *)requireTextStyle1WithMainNuiClass:(NSString *)nuiClass; // Title *:
-- (NSAttributedString *)requireTextStyle2WithMainNuiClass:(NSString *)nuiClass; // Title *
-- (NSAttributedString *)disableRequireTextStyle1WithMainNuiClass:(NSString *)nuiClass; // Title *:
-- (NSAttributedString *)disableRequireTextStyle2WithMainNuiClass:(NSString *)nuiClass; // Title *
-
 @end
 
 @interface NSString (Convertion)
