@@ -10,8 +10,9 @@
 		0F6A59BD5C444AA0B72652375D31CDCA /* MoolaLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2BB621A74BEF87334EE5D27E49DF5A /* MoolaLib-dummy.m */; };
 		16E0E4F5D94258FCFF4389C62F065FD3 /* Pods-MoolaLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED7BF4F3E45DF1A6D5B81FFC8536044 /* Pods-MoolaLib_Tests-dummy.m */; };
 		274BB89D6AD09D6A588D5FBB7AF95FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		28677FC21F415CFC00C12C67 /* NSDate+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 28677FC01F415CFC00C12C67 /* NSDate+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28677FC31F415CFC00C12C67 /* NSDate+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28677FC11F415CFC00C12C67 /* NSDate+DIS.m */; };
 		435CADCC1DCA8EBF9C0D6A09193CDE91 /* MoolaLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9B09CF132E5C25FDD017A90FEF19C9 /* MoolaLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5070E9C5DF38E8800E85A7FF7DF5C03E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFB0532583808D0C6B8B667865699 /* ReplaceMe.m */; };
 		631DDA464B4A6B5A89257A09E1AED88F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6EF1B31B656D8D4A182BAE956987C698 /* Pods-MoolaLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324EB55C691391A11AE9F9C9CF1048F1 /* Pods-MoolaLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -28,26 +29,27 @@
 
 /* Begin PBXFileReference section */
 		08F1CA4E729EE340181E5A21390D7EF9 /* Pods-MoolaLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoolaLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25FB718CB0436A5598FA1FF850EC35DA /* MoolaLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MoolaLib.framework; path = MoolaLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FB718CB0436A5598FA1FF850EC35DA /* MoolaLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoolaLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281B6646D6FE4DF4BEEDAE1A1E637DA6 /* Pods-MoolaLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		28677FC01F415CFC00C12C67 /* NSDate+DIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DIS.h"; sourceTree = "<group>"; };
+		28677FC11F415CFC00C12C67 /* NSDate+DIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DIS.m"; sourceTree = "<group>"; };
 		324EB55C691391A11AE9F9C9CF1048F1 /* Pods-MoolaLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoolaLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4B2BB621A74BEF87334EE5D27E49DF5A /* MoolaLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoolaLib-dummy.m"; sourceTree = "<group>"; };
 		4CB7D7E63DBE1F7FF3EDA1F60AA24285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69FC32A81CCFCFA673DACB656EF159BF /* Pods_MoolaLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoolaLib_Tests.framework; path = "Pods-MoolaLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FC32A81CCFCFA673DACB656EF159BF /* Pods_MoolaLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoolaLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoolaLib.xcconfig; sourceTree = "<group>"; };
 		89127F1A88C2AD979834FB284D913DF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C0CFB0532583808D0C6B8B667865699 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97CC71D7C112F591A7F098C1C2BC740C /* MoolaLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoolaLib-prefix.pch"; sourceTree = "<group>"; };
 		B04279D56A771BBFADF96942A0FA6504 /* Pods-MoolaLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoolaLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B5D7E00CB310253619021BE04EF32F24 /* Pods-MoolaLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		CA9B09CF132E5C25FDD017A90FEF19C9 /* MoolaLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoolaLib-umbrella.h"; sourceTree = "<group>"; };
 		CADB202A1DF9D064EA546F3E3E0EB960 /* Pods-MoolaLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoolaLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5A52F018987719CDB4820DC9C5ACF58 /* Pods-MoolaLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoolaLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDF4BB04899AC14801FF2031CB2036A7 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MoolaLib.modulemap; sourceTree = "<group>"; };
+		DDF4BB04899AC14801FF2031CB2036A7 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoolaLib.modulemap; sourceTree = "<group>"; };
 		DED7BF4F3E45DF1A6D5B81FFC8536044 /* Pods-MoolaLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoolaLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		EA9493DF049DEF065FEA17B0C0B49270 /* Pods-MoolaLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MoolaLib_Tests.modulemap"; sourceTree = "<group>"; };
+		EA9493DF049DEF065FEA17B0C0B49270 /* Pods-MoolaLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MoolaLib_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,9 @@
 		0961064F50B38AA28C42661B69DF54F8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8C0CFB0532583808D0C6B8B667865699 /* ReplaceMe.m */,
+				28677FC01F415CFC00C12C67 /* NSDate+DIS.h */,
+				28677FC11F415CFC00C12C67 /* NSDate+DIS.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -152,7 +154,6 @@
 			children = (
 				0961064F50B38AA28C42661B69DF54F8 /* Classes */,
 			);
-			name = MoolaLib;
 			path = MoolaLib;
 			sourceTree = "<group>";
 		};
@@ -197,6 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28677FC21F415CFC00C12C67 /* NSDate+DIS.h in Headers */,
 				435CADCC1DCA8EBF9C0D6A09193CDE91 /* MoolaLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6A59BD5C444AA0B72652375D31CDCA /* MoolaLib-dummy.m in Sources */,
-				5070E9C5DF38E8800E85A7FF7DF5C03E /* ReplaceMe.m in Sources */,
+				28677FC31F415CFC00C12C67 /* NSDate+DIS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
