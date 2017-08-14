@@ -9,6 +9,7 @@
 #import "UILabel+GEM.h"
 #import "NSString+DIS.h"
 #import "NSMutableAttributedString+Hightlighted.h"
+#import <NUI/NUI-umbrella.h>
 
 @implementation UILabel (GEM)
 - (void)setRequiredTextTitle:(NSString *)requiredTextTitle
