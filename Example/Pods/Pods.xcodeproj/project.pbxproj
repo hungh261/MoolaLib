@@ -48,6 +48,8 @@
 		2563184A5F2624290E7AF67B248967FA /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA96BBCED1FE205E41C305C65ED3DF5 /* UITabBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266196E72F31B3D08583A7C5548DE207 /* NUIPGrammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EB0FE555F943CC3B74121727C04A51 /* NUIPGrammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		281D8D8DA8FC271A6F3B3482554F8895 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C20C6C0B164E9827702CA4823021BCF /* Masonry.framework */; };
+		283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */; };
+		283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2867800D1F419A8F00C12C67 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 88313D7C2E5B9D3DB201B6334CF4C701 /* DISStyle.nss */; };
 		2867800E1F419A8F00C12C67 /* icon_dropdown_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A9B22859A5751224EFA449861B6CC3 /* icon_dropdown_white@2x.png */; };
@@ -435,6 +437,8 @@
 		266918521C8DFD02E93745E6E13DE9F8 /* NUIPRHSItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRHSItem.h; path = NUIParse/Grammar/NUIPRHSItem.h; sourceTree = "<group>"; };
 		27A660B44115EF38DE4B4DE846755790 /* NUISegmentedControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISegmentedControlRenderer.h; path = NUI/Core/Renderers/NUISegmentedControlRenderer.h; sourceTree = "<group>"; };
 		281B6646D6FE4DF4BEEDAE1A1E637DA6 /* Pods-MoolaLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		285B0048918489089BFB4CBC7F9C30FA /* NUIPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPJSONParser.h; path = "NUIParse/Built In Parsers/NUIPJSONParser.h"; sourceTree = "<group>"; };
 		2878D567DCA54EA3146D84510BB89978 /* NUIConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIConverter.m; path = NUI/Core/NUIConverter.m; sourceTree = "<group>"; };
 		28D4CC5C2AC9150574DFE680465DE380 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoolaLib.modulemap; sourceTree = "<group>"; };
@@ -1124,6 +1128,8 @@
 				F92E53F1244AAAEBB200AEE4930ACB97 /* NavigationTitleControl.m */,
 				ED7DD037FFA957BB566E60966DA52586 /* UIColor+DIS.h */,
 				E01D21C0141474F2FED3FBF6856D5D80 /* UIColor+DIS.m */,
+				283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */,
+				283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -1487,6 +1493,7 @@
 				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
 				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
 				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */,
 				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
 				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
 				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
@@ -1711,6 +1718,7 @@
 				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
 				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
 				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */,
 				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
 				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
 				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,

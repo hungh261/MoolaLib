@@ -7,6 +7,7 @@
 //
 
 #import "NavigationTitleControl.h"
+#import "UIImage+Extension.h"
 @import Masonry;
 @import NUI;
 
@@ -95,7 +96,7 @@
     self.bottomTitleLabel.highlightedTextColor = [UIColor lightGrayColor];
     
     self.dropdownImageView = [UIImageView newForAutoLayout];
-    self.dropdownImageView.image = [UIImage imageNamed:@"icon_dropdown_white" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+    self.dropdownImageView.image = [UIImage imageName:@"icon_dropdown_white" ofType:@"png" inBundle:[NSBundle bundleForClass:[self class]]];
     [self addSubview:self.dropdownImageView];
     
     [self.topTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
