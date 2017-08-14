@@ -12,6 +12,7 @@
 		274BB89D6AD09D6A588D5FBB7AF95FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		28677FC21F415CFC00C12C67 /* NSDate+DIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 28677FC01F415CFC00C12C67 /* NSDate+DIS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28677FC31F415CFC00C12C67 /* NSDate+DIS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28677FC11F415CFC00C12C67 /* NSDate+DIS.m */; };
+		28677FE51F41829D00C12C67 /* TimeZone+Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28677FE41F41829D00C12C67 /* TimeZone+Offset.swift */; };
 		435CADCC1DCA8EBF9C0D6A09193CDE91 /* MoolaLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9B09CF132E5C25FDD017A90FEF19C9 /* MoolaLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		631DDA464B4A6B5A89257A09E1AED88F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6EF1B31B656D8D4A182BAE956987C698 /* Pods-MoolaLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324EB55C691391A11AE9F9C9CF1048F1 /* Pods-MoolaLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +34,7 @@
 		281B6646D6FE4DF4BEEDAE1A1E637DA6 /* Pods-MoolaLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		28677FC01F415CFC00C12C67 /* NSDate+DIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DIS.h"; sourceTree = "<group>"; };
 		28677FC11F415CFC00C12C67 /* NSDate+DIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DIS.m"; sourceTree = "<group>"; };
+		28677FE41F41829D00C12C67 /* TimeZone+Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeZone+Offset.swift"; sourceTree = "<group>"; };
 		324EB55C691391A11AE9F9C9CF1048F1 /* Pods-MoolaLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoolaLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4B2BB621A74BEF87334EE5D27E49DF5A /* MoolaLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoolaLib-dummy.m"; sourceTree = "<group>"; };
 		4CB7D7E63DBE1F7FF3EDA1F60AA24285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		0961064F50B38AA28C42661B69DF54F8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				28677FE41F41829D00C12C67 /* TimeZone+Offset.swift */,
 				28677FC01F415CFC00C12C67 /* NSDate+DIS.h */,
 				28677FC11F415CFC00C12C67 /* NSDate+DIS.m */,
 			);
@@ -249,6 +252,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					11EBFC578A60DF4159C32FF1845F9F46 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,6 +283,7 @@
 			files = (
 				0F6A59BD5C444AA0B72652375D31CDCA /* MoolaLib-dummy.m in Sources */,
 				28677FC31F415CFC00C12C67 /* NSDate+DIS.m in Sources */,
+				28677FE51F41829D00C12C67 /* TimeZone+Offset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -408,6 +418,7 @@
 				PRODUCT_NAME = MoolaLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -462,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 707F3E86FFF903DF9F7C43B91C107340 /* MoolaLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,6 +496,8 @@
 				PRODUCT_NAME = MoolaLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
