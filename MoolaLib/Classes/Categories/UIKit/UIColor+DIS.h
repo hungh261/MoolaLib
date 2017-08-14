@@ -45,7 +45,6 @@
 + (UIColor *)ext_oddRowBackgroundColor;
 + (UIColor *)ext_confirmationBackgroundColor;
 + (UIColor *)ext_navigationDropdownTableSeperatorColor;
-+ (UIColor *)ext_drawerTableSeperatorColor;
 + (UIColor *)ext_dropdownTableHeaderColor;
 
 @end

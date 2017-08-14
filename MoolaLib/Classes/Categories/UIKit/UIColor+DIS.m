@@ -8,6 +8,8 @@
 
 #import "UIColor+DIS.h"
 
+#define RGBCOLOR(RED, GREEN, BLUE, ALPHA) [UIColor colorWithRed:RED/255.0f green:GREEN/255.0f blue:BLUE/255.0f alpha:ALPHA]
+
 @implementation UIColor (DIS)
 + (UIColor *)colorWithRGBHex:(UInt32)hex {
     int r = (hex >> 16) & 0xFF;
@@ -249,15 +251,6 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         color = [UIColor colorWithWhite:1 alpha:0.2];
-    });
-    return color;
-}
-
-+ (UIColor *)ext_drawerTableSeperatorColor {
-    static UIColor *color;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        color = [NUISettings getColor:@"separator-color" withClass:@"LeftMenuTable"];;
     });
     return color;
 }
