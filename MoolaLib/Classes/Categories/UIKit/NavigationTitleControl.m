@@ -13,6 +13,8 @@
 @interface UIView (Autolayout)
 
 + (instancetype)newForAutoLayout;
+- (void)ext_rerenderViewWithCurrentNUIClass;
+- (void)ext_rerenderViewWithCurrentNUIClassInDeep;
 
 @end
 
@@ -28,6 +30,21 @@
     [view setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
     [view setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisVertical];
     return view;
+}
+
+- (void)ext_rerenderViewWithCurrentNUIClass
+{
+    self.nuiApplied = NO;
+    [self applyNUI];
+}
+
+- (void)ext_rerenderViewWithCurrentNUIClassInDeep
+{
+    self.nuiApplied = NO;
+    [self applyNUI];
+    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj ext_rerenderViewWithCurrentNUIClassInDeep];
+    }];
 }
 
 @end
