@@ -18,6 +18,7 @@
 #import "NSString+DIS.h"
 #import "NavigationTitleControl.h"
 #import "UIColor+DIS.h"
+#import "UIImage+Extension.h"
 #import "UILabel+GEM.h"
 #import "CurrencyHelper.h"
 
