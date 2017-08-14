@@ -1,6 +1,6 @@
 use_frameworks!
 target 'MoolaLib_Tests' do
   pod 'MoolaLib', :path => '../'
-  
+  pod 'RNCryptor-objc', '~> 3.0'
   
 end

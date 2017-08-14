@@ -1,9 +1,9 @@
 {
   "name": "MoolaLib",
-  "version": "0.1.0",
-  "summary": "A short description of MoolaLib.",
+  "version": "0.1.1",
+  "summary": "This is library are using in Moola apps.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Henry/MoolaLib",
+  "homepage": "https://github.com/hungh261/MoolaLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Henry": "hunglv@moolapp.com"
   },
   "source": {
-    "git": "https://github.com/Henry/MoolaLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hungh261/MoolaLib.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

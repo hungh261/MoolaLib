@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "NSDate+DIS.h"
+#import "NSMutableAttributedString+Hightlighted.h"
+#import "NSString+DIS.h"
 
 FOUNDATION_EXPORT double MoolaLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char MoolaLibVersionString[];
