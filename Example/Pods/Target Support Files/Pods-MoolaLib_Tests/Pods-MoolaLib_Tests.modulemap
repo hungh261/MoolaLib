@@ -1,0 +1,6 @@
+framework module Pods_MoolaLib_Tests {
+  umbrella header "Pods-MoolaLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

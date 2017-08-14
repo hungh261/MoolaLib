@@ -1,0 +1,16 @@
+PODS:
+  - MoolaLib (0.1.0)
+
+DEPENDENCIES:
+  - MoolaLib (from `../`)
+
+EXTERNAL SOURCES:
+  MoolaLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MoolaLib: b3abf6e9ec3623f081166deb3305ea25d28d6944
+
+PODFILE CHECKSUM: ce91196bdbbe9eed0b5cd8461d5792a551e79e56
+
+COCOAPODS: 1.2.1
