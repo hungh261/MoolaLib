@@ -1,9 +1,18 @@
 PODS:
-  - MoolaLib (0.1.1)
+  - Masonry (1.0.2)
+  - MoolaLib (0.1.1):
+    - Masonry (~> 1.0)
+    - NUI (~> 0.5)
+    - RNCryptor-objc (~> 3.0)
+  - NUI (0.5.5):
+    - NUIParse
+  - NUIParse (1.3)
   - RNCryptor-objc (3.0.5)
 
 DEPENDENCIES:
+  - Masonry (~> 1.0.2)
   - MoolaLib (from `../`)
+  - NUI (~> 0.5)
   - RNCryptor-objc (~> 3.0)
 
 EXTERNAL SOURCES:
@@ -11,9 +20,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MoolaLib: 100f2b3072adb6b92c34420b4434775f36b2ec6f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MoolaLib: 76d755ef8a7e034394fe9079ef1f493ae64b1207
+  NUI: 53de7278003235deb2a375fe6f04c7a3aa3e49eb
+  NUIParse: 2e3885ba7807477266396292626bd387d34c2338
   RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
 
-PODFILE CHECKSUM: 0c2ebe8fbcdf41e996f2044b2b5348a3d73e2df5
+PODFILE CHECKSUM: 253b8eb8399272eef44cc91971619015e5ad0c0d
 
 COCOAPODS: 1.2.1

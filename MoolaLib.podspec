@@ -32,12 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MoolaLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MoolaLib' => ['MoolaLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'MoolaLib' => ['MoolaLib/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'RNCryptor-objc', '~> 3.0'
-  s.dependency 'Masonry', '1.0.2'
+  s.dependency 'Masonry', '~> 1.0'
+  s.dependency 'NUI', '~> 0.5'
 end

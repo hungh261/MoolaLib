@@ -8,6 +8,29 @@
 
 #import "NavigationTitleControl.h"
 @import Masonry;
+@import NUI;
+
+@interface UIView (Autolayout)
+
++ (instancetype)newForAutoLayout;
+
+@end
+
+@implementation UIView (Autolayout)
+
++ (instancetype)newForAutoLayout
+{
+    UIView *view = [[[self class] alloc] init];
+    [view setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [view setContentCompressionResistancePriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisHorizontal];
+    [view setContentCompressionResistancePriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisVertical];
+    
+    [view setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
+    [view setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisVertical];
+    return view;
+}
+
+@end
 
 @interface NavigationTitleControl ()
 
