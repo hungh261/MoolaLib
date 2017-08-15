@@ -48,11 +48,21 @@
 		2563184A5F2624290E7AF67B248967FA /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA96BBCED1FE205E41C305C65ED3DF5 /* UITabBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266196E72F31B3D08583A7C5548DE207 /* NUIPGrammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EB0FE555F943CC3B74121727C04A51 /* NUIPGrammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		281D8D8DA8FC271A6F3B3482554F8895 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C20C6C0B164E9827702CA4823021BCF /* Masonry.framework */; };
-		283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */; };
-		283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A2332B1F4286FA007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233281F4282EF007DB077 /* Icon.xcassets */; };
-		28A2332C1F4286FD007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 283F32501F41B4CE000F4A1D /* DISStyle.nss */; };
+		28A233401F42A5C1007DB077 /* CurrencyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A2333E1F42A5C1007DB077 /* CurrencyHelper.h */; };
+		28A233411F42A5C1007DB077 /* CurrencyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2333F1F42A5C1007DB077 /* CurrencyHelper.m */; };
+		28A233461F42A81C007DB077 /* NSLocale+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A233321F42A5AB007DB077 /* NSLocale+category.m */; };
+		28A233471F42A822007DB077 /* NSLocale+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A233311F42A5AB007DB077 /* NSLocale+category.h */; };
+		28A233481F42A826007DB077 /* NSDecimalNumberHandler+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A233301F42A5AB007DB077 /* NSDecimalNumberHandler+category.m */; };
+		28A233491F42A829007DB077 /* NSDecimalNumberHandler+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A2332F1F42A5AB007DB077 /* NSDecimalNumberHandler+category.h */; };
+		28A2334A1F42A82D007DB077 /* NSDecimalNumber+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2332E1F42A5AB007DB077 /* NSDecimalNumber+category.m */; };
+		28A2334B1F42A830007DB077 /* NSDecimalNumber+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A2332D1F42A5AB007DB077 /* NSDecimalNumber+category.h */; };
+		28A2334C1F42A838007DB077 /* UILabel+GEM.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A233391F42A5B4007DB077 /* UILabel+GEM.h */; };
+		28A2334D1F42A83C007DB077 /* UILabel+GEM.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2333A1F42A5B4007DB077 /* UILabel+GEM.m */; };
+		28A2334E1F42A843007DB077 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */; };
+		28A2334F1F42A846007DB077 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */; };
+		28A233501F42A84A007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 28A233441F42A7EB007DB077 /* DISStyle.nss */; };
+		28A233511F42A84D007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233451F42A7EB007DB077 /* Icon.xcassets */; };
 		29810BF3BDD03860E270B00912A8EB5E /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA95FF5646BEE0B316A2C9246F38D961 /* NUITokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A4C859CBD78965314F8880FA024BB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6642ABCAF1C244D3770C9B1E0C44C77 /* Foundation.framework */; };
 		2A7F885C73557E1F33AF2CF23A3505CC /* NUIDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C569737D41A35B05BF99889188EC9386 /* NUIDefinition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -429,10 +439,20 @@
 		281B6646D6FE4DF4BEEDAE1A1E637DA6 /* Pods-MoolaLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		283F32501F41B4CE000F4A1D /* DISStyle.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DISStyle.nss; sourceTree = "<group>"; };
 		285B0048918489089BFB4CBC7F9C30FA /* NUIPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPJSONParser.h; path = "NUIParse/Built In Parsers/NUIPJSONParser.h"; sourceTree = "<group>"; };
 		2878D567DCA54EA3146D84510BB89978 /* NUIConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIConverter.m; path = NUI/Core/NUIConverter.m; sourceTree = "<group>"; };
-		28A233281F4282EF007DB077 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		28A2332D1F42A5AB007DB077 /* NSDecimalNumber+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+category.h"; sourceTree = "<group>"; };
+		28A2332E1F42A5AB007DB077 /* NSDecimalNumber+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+category.m"; sourceTree = "<group>"; };
+		28A2332F1F42A5AB007DB077 /* NSDecimalNumberHandler+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumberHandler+category.h"; sourceTree = "<group>"; };
+		28A233301F42A5AB007DB077 /* NSDecimalNumberHandler+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumberHandler+category.m"; sourceTree = "<group>"; };
+		28A233311F42A5AB007DB077 /* NSLocale+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+category.h"; sourceTree = "<group>"; };
+		28A233321F42A5AB007DB077 /* NSLocale+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+category.m"; sourceTree = "<group>"; };
+		28A233391F42A5B4007DB077 /* UILabel+GEM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GEM.h"; sourceTree = "<group>"; };
+		28A2333A1F42A5B4007DB077 /* UILabel+GEM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GEM.m"; sourceTree = "<group>"; };
+		28A2333E1F42A5C1007DB077 /* CurrencyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyHelper.h; sourceTree = "<group>"; };
+		28A2333F1F42A5C1007DB077 /* CurrencyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyHelper.m; sourceTree = "<group>"; };
+		28A233441F42A7EB007DB077 /* DISStyle.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DISStyle.nss; sourceTree = "<group>"; };
+		28A233451F42A7EB007DB077 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 		28D4CC5C2AC9150574DFE680465DE380 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoolaLib.modulemap; sourceTree = "<group>"; };
 		29F554A9971976924A722238A658C08E /* NUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUI.xcconfig; sourceTree = "<group>"; };
 		2A2B44DFF8B7DCC46BDF4334894AA046 /* NUIPKeywordToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPKeywordToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPKeywordToken.h"; sourceTree = "<group>"; };
@@ -921,6 +941,7 @@
 		12F88030F14DD4EF3DE1AC32756AEF7B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				28A2333D1F42A5C1007DB077 /* Helper */,
 				B7B4D76B6880AC609629E83FBFAC980C /* Categories */,
 			);
 			path = Classes;
@@ -1019,19 +1040,28 @@
 			path = NUIParse;
 			sourceTree = "<group>";
 		};
-		283F324E1F41B4CE000F4A1D /* Assets */ = {
+		28A2333D1F42A5C1007DB077 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				283F32501F41B4CE000F4A1D /* DISStyle.nss */,
-				28A233281F4282EF007DB077 /* Icon.xcassets */,
+				28A2333E1F42A5C1007DB077 /* CurrencyHelper.h */,
+				28A2333F1F42A5C1007DB077 /* CurrencyHelper.m */,
 			);
-			name = Assets;
-			path = MoolaLib/Assets;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		28A233421F42A7EB007DB077 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				28A233441F42A7EB007DB077 /* DISStyle.nss */,
+				28A233451F42A7EB007DB077 /* Icon.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		353F45CC2BF7FAE5A384EAB5D7C6E8BC /* MoolaLib */ = {
 			isa = PBXGroup;
 			children = (
+				28A233421F42A7EB007DB077 /* Assets */,
 				12F88030F14DD4EF3DE1AC32756AEF7B /* Classes */,
 			);
 			path = MoolaLib;
@@ -1090,6 +1120,8 @@
 		6C7E3397BF9A2A9107F44A0B3CEA3BAF /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				28A233391F42A5B4007DB077 /* UILabel+GEM.h */,
+				28A2333A1F42A5B4007DB077 /* UILabel+GEM.m */,
 				CE1BB952EB94034CB561A93B5BB7FF20 /* NavigationTitleControl.h */,
 				F92E53F1244AAAEBB200AEE4930ACB97 /* NavigationTitleControl.m */,
 				ED7DD037FFA957BB566E60966DA52586 /* UIColor+DIS.h */,
@@ -1267,6 +1299,12 @@
 		E46715B9671BCE205100755D830AE00E /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				28A2332D1F42A5AB007DB077 /* NSDecimalNumber+category.h */,
+				28A2332E1F42A5AB007DB077 /* NSDecimalNumber+category.m */,
+				28A2332F1F42A5AB007DB077 /* NSDecimalNumberHandler+category.h */,
+				28A233301F42A5AB007DB077 /* NSDecimalNumberHandler+category.m */,
+				28A233311F42A5AB007DB077 /* NSLocale+category.h */,
+				28A233321F42A5AB007DB077 /* NSLocale+category.m */,
 				820B49B4C1B4A924FDDA05AA1AB1A9D1 /* NSDate+DIS.h */,
 				233FC09094E2DAD9C2C9D0DAFE5849A0 /* NSDate+DIS.m */,
 				FE93ECCC3DDADC1D2DD9D96894BF5B58 /* NSMutableAttributedString+Hightlighted.h */,
@@ -1280,7 +1318,6 @@
 		E74AA06C9C7B374021D98437F1C8B327 /* MoolaLib */ = {
 			isa = PBXGroup;
 			children = (
-				283F324E1F41B4CE000F4A1D /* Assets */,
 				353F45CC2BF7FAE5A384EAB5D7C6E8BC /* MoolaLib */,
 				48AAB8BEC6D9FA14F31E0EF6C2DA4E4C /* Support Files */,
 			);
@@ -1312,8 +1349,13 @@
 				6F29DF5A44BC3347DBB6B7F638C119CA /* NavigationTitleControl.h in Headers */,
 				350AE2BCBFAD5EC761D951DDA3F1E399 /* NSDate+DIS.h in Headers */,
 				A2B701CB371A08FD172D1F0263D90D8E /* NSMutableAttributedString+Hightlighted.h in Headers */,
+				28A233471F42A822007DB077 /* NSLocale+category.h in Headers */,
+				28A2334C1F42A838007DB077 /* UILabel+GEM.h in Headers */,
+				28A233491F42A829007DB077 /* NSDecimalNumberHandler+category.h in Headers */,
+				28A2334E1F42A843007DB077 /* UIImage+Extension.h in Headers */,
 				8D21E19FE8844F78830F4A25B0DE96CD /* NSString+DIS.h in Headers */,
 				995FCD80D69ABEFC111C798633B159D4 /* UIColor+DIS.h in Headers */,
+				28A2334B1F42A830007DB077 /* NSDecimalNumber+category.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,12 +1501,12 @@
 				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
 				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
 				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
-				283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */,
 				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
 				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
 				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
 				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
 				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				28A233401F42A5C1007DB077 /* CurrencyHelper.h in Headers */,
 				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
 				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
 				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
@@ -1640,8 +1682,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A2332C1F4286FD007DB077 /* DISStyle.nss in Resources */,
-				28A2332B1F4286FA007DB077 /* Icon.xcassets in Resources */,
+				28A233511F42A84D007DB077 /* Icon.xcassets in Resources */,
+				28A233501F42A84A007DB077 /* DISStyle.nss in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1655,7 +1697,7 @@
 				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
 				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
 				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
-				283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */,
+				28A233411F42A5C1007DB077 /* CurrencyHelper.m in Sources */,
 				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
 				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
 				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
@@ -1751,11 +1793,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A2334D1F42A83C007DB077 /* UILabel+GEM.m in Sources */,
 				994E95C43356343F73AEEF95CB28B073 /* MoolaLib-dummy.m in Sources */,
 				383F054939044F7BA091C45EEFA53365 /* NavigationTitleControl.m in Sources */,
 				5581330890FD1697CFE59953581635A8 /* NSDate+DIS.m in Sources */,
 				446A9256B793A05719A61850B8FFAE79 /* NSMutableAttributedString+Hightlighted.m in Sources */,
+				28A233481F42A826007DB077 /* NSDecimalNumberHandler+category.m in Sources */,
 				EAB398D348B4734F36B24394BDA510C6 /* NSString+DIS.m in Sources */,
+				28A2334A1F42A82D007DB077 /* NSDecimalNumber+category.m in Sources */,
+				28A233461F42A81C007DB077 /* NSLocale+category.m in Sources */,
+				28A2334F1F42A846007DB077 /* UIImage+Extension.m in Sources */,
 				452CAC4299190136BCD125D655DC55F0 /* UIColor+DIS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
