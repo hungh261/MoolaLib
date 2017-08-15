@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MoolaLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MoolaLib' => ['MoolaLib/Assets/*']
-  # }
+  s.resource_bundles = {
+    'MoolaLib' => ['MoolaLib/Assets/*']
+  }
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
