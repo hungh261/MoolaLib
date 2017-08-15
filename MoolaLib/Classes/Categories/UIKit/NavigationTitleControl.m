@@ -96,7 +96,8 @@
     self.bottomTitleLabel.highlightedTextColor = [UIColor lightGrayColor];
     
     self.dropdownImageView = [UIImageView newForAutoLayout];
-    self.dropdownImageView.image = [UIImage imageName:@"icon_dropdown_white" ofType:@"png" inBundle:[NSBundle bundleForClass:[self class]]];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"MoolaLib" ofType:@"bundle"]];
+    self.dropdownImageView.image = [UIImage imageName:@"icon_dropdown_white" ofType:@"png" inBundle:bundle];
     [self addSubview:self.dropdownImageView];
     
     [self.topTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {

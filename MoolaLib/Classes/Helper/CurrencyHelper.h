@@ -10,6 +10,4 @@
 
 @interface CurrencyHelper : NSObject
 
-+ (NSString *)workingBranchCurrency;
-
 @end
