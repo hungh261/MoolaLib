@@ -51,6 +51,8 @@
 		283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */; };
 		283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A233291F428381007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 283F32501F41B4CE000F4A1D /* DISStyle.nss */; };
+		28A2332A1F428385007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233281F4282EF007DB077 /* Icon.xcassets */; };
 		29810BF3BDD03860E270B00912A8EB5E /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA95FF5646BEE0B316A2C9246F38D961 /* NUITokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A4C859CBD78965314F8880FA024BB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6642ABCAF1C244D3770C9B1E0C44C77 /* Foundation.framework */; };
 		2A7F885C73557E1F33AF2CF23A3505CC /* NUIDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C569737D41A35B05BF99889188EC9386 /* NUIDefinition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -436,9 +438,9 @@
 		283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		283F32501F41B4CE000F4A1D /* DISStyle.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DISStyle.nss; sourceTree = "<group>"; };
-		283F32511F41B4CE000F4A1D /* icon_dropdown_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dropdown_white@2x.png"; sourceTree = "<group>"; };
 		285B0048918489089BFB4CBC7F9C30FA /* NUIPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPJSONParser.h; path = "NUIParse/Built In Parsers/NUIPJSONParser.h"; sourceTree = "<group>"; };
 		2878D567DCA54EA3146D84510BB89978 /* NUIConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIConverter.m; path = NUI/Core/NUIConverter.m; sourceTree = "<group>"; };
+		28A233281F4282EF007DB077 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 		28D4CC5C2AC9150574DFE680465DE380 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoolaLib.modulemap; sourceTree = "<group>"; };
 		29F554A9971976924A722238A658C08E /* NUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUI.xcconfig; sourceTree = "<group>"; };
 		2A2B44DFF8B7DCC46BDF4334894AA046 /* NUIPKeywordToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPKeywordToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPKeywordToken.h"; sourceTree = "<group>"; };
@@ -1038,7 +1040,7 @@
 			isa = PBXGroup;
 			children = (
 				283F32501F41B4CE000F4A1D /* DISStyle.nss */,
-				283F32511F41B4CE000F4A1D /* icon_dropdown_white@2x.png */,
+				28A233281F4282EF007DB077 /* Icon.xcassets */,
 			);
 			name = Assets;
 			path = MoolaLib/Assets;
@@ -1674,6 +1676,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A2332A1F428385007DB077 /* Icon.xcassets in Resources */,
+				28A233291F428381007DB077 /* DISStyle.nss in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
