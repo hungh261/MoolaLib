@@ -49,8 +49,6 @@
 		266196E72F31B3D08583A7C5548DE207 /* NUIPGrammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EB0FE555F943CC3B74121727C04A51 /* NUIPGrammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		281D8D8DA8FC271A6F3B3482554F8895 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C20C6C0B164E9827702CA4823021BCF /* Masonry.framework */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A233401F42A5C1007DB077 /* CurrencyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A2333E1F42A5C1007DB077 /* CurrencyHelper.h */; };
-		28A233411F42A5C1007DB077 /* CurrencyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2333F1F42A5C1007DB077 /* CurrencyHelper.m */; };
 		28A233461F42A81C007DB077 /* NSLocale+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A233321F42A5AB007DB077 /* NSLocale+category.m */; };
 		28A233471F42A822007DB077 /* NSLocale+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A233311F42A5AB007DB077 /* NSLocale+category.h */; };
 		28A233481F42A826007DB077 /* NSDecimalNumberHandler+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A233301F42A5AB007DB077 /* NSDecimalNumberHandler+category.m */; };
@@ -449,8 +447,6 @@
 		28A233321F42A5AB007DB077 /* NSLocale+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+category.m"; sourceTree = "<group>"; };
 		28A233391F42A5B4007DB077 /* UILabel+GEM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GEM.h"; sourceTree = "<group>"; };
 		28A2333A1F42A5B4007DB077 /* UILabel+GEM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GEM.m"; sourceTree = "<group>"; };
-		28A2333E1F42A5C1007DB077 /* CurrencyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyHelper.h; sourceTree = "<group>"; };
-		28A2333F1F42A5C1007DB077 /* CurrencyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyHelper.m; sourceTree = "<group>"; };
 		28A233441F42A7EB007DB077 /* DISStyle.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DISStyle.nss; sourceTree = "<group>"; };
 		28A233451F42A7EB007DB077 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 		28D4CC5C2AC9150574DFE680465DE380 /* MoolaLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoolaLib.modulemap; sourceTree = "<group>"; };
@@ -1043,8 +1039,6 @@
 		28A2333D1F42A5C1007DB077 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				28A2333E1F42A5C1007DB077 /* CurrencyHelper.h */,
-				28A2333F1F42A5C1007DB077 /* CurrencyHelper.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -1506,7 +1500,6 @@
 				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
 				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
 				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				28A233401F42A5C1007DB077 /* CurrencyHelper.h in Headers */,
 				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
 				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
 				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
@@ -1697,7 +1690,6 @@
 				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
 				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
 				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
-				28A233411F42A5C1007DB077 /* CurrencyHelper.m in Sources */,
 				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
 				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
 				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,

@@ -50,10 +50,4 @@
 
 + (NSDecimalNumber *)n:(NSNumber *)number;
 
-+ (NSDecimalNumber *)taxOfInputPrice:(NSDecimalNumber *)price withVAT:(NSNumber *)vat isIncludeVAT:(BOOL)priceIncludeVAT;
-+ (NSDecimalNumber *)percentTaxOfInputPrice:(NSDecimalNumber *)price withTax:(NSDecimalNumber *)tax isIncludeVAT:(BOOL)priceIncludeVAT;
-
-+ (NSDecimalNumber *)taxOfPreTaxPrice:(NSDecimalNumber *)price withVAT:(NSNumber *)vat;
-+ (NSDecimalNumber *)vatOfPrice:(NSDecimalNumber *)price withTax:(NSDecimalNumber *)tax;
-
 @end
