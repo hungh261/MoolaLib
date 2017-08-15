@@ -53,6 +53,8 @@
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28A233291F428381007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 283F32501F41B4CE000F4A1D /* DISStyle.nss */; };
 		28A2332A1F428385007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233281F4282EF007DB077 /* Icon.xcassets */; };
+		28A2332B1F4286FA007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233281F4282EF007DB077 /* Icon.xcassets */; };
+		28A2332C1F4286FD007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 283F32501F41B4CE000F4A1D /* DISStyle.nss */; };
 		29810BF3BDD03860E270B00912A8EB5E /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA95FF5646BEE0B316A2C9246F38D961 /* NUITokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A4C859CBD78965314F8880FA024BB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6642ABCAF1C244D3770C9B1E0C44C77 /* Foundation.framework */; };
 		2A7F885C73557E1F33AF2CF23A3505CC /* NUIDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C569737D41A35B05BF99889188EC9386 /* NUIDefinition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -1685,6 +1687,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A2332C1F4286FD007DB077 /* DISStyle.nss in Resources */,
+				28A2332B1F4286FA007DB077 /* Icon.xcassets in Resources */,
 				75C172617FD1E89BDDAACDF5F85A23EA /* MoolaLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
