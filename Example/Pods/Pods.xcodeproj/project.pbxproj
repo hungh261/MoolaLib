@@ -51,8 +51,6 @@
 		283F324C1F41ABB5000F4A1D /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 283F324A1F41ABB5000F4A1D /* UIImage+Extension.h */; };
 		283F324D1F41ABB5000F4A1D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 283F324B1F41ABB5000F4A1D /* UIImage+Extension.m */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6685BD09F8451829D4C779D3D6B9F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A233291F428381007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 283F32501F41B4CE000F4A1D /* DISStyle.nss */; };
-		28A2332A1F428385007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233281F4282EF007DB077 /* Icon.xcassets */; };
 		28A2332B1F4286FA007DB077 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A233281F4282EF007DB077 /* Icon.xcassets */; };
 		28A2332C1F4286FD007DB077 /* DISStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = 283F32501F41B4CE000F4A1D /* DISStyle.nss */; };
 		29810BF3BDD03860E270B00912A8EB5E /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA95FF5646BEE0B316A2C9246F38D961 /* NUITokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -153,7 +151,6 @@
 		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8525E8042D0759D4FBCBB4DE2256EB /* MASConstraintMaker.m */; };
 		73DFA97C48159FF3FEAFBA31821E7A65 /* NUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5BEF8321FDBC65E2FB52F7415C12C66 /* NUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E97538232AAFC20670F2A4DFD2F8DC8 /* MASViewConstraint.m */; };
-		75C172617FD1E89BDDAACDF5F85A23EA /* MoolaLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3C624CBE693F5374A28E512BD4E16C0 /* MoolaLib.bundle */; };
 		760F0DA452CEA9F84EF1BDA6212FC251 /* NUIPShiftReduceActionTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A4B3CA1CF40B2257E13CD6FEBCEAB /* NUIPShiftReduceActionTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7741D34439FB206432D32BC7C63A6331 /* NUIPTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1656165749CC5F59439D0086404E /* NUIPTokenStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		78A00FA9BC6EEF411053B1C8A1EE98D7 /* NUIViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22B5B67459F19131C18FC56BF9D36 /* NUIViewRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -318,13 +315,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 13BB9B5CE74431D3F6970A8E6ABD7D86;
 			remoteInfo = NUIParse;
-		};
-		31658F9DBA3C688813917DF9A818F14B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E7A95A0D58E286B512DCA81DB506B85;
-			remoteInfo = "MoolaLib-MoolaLib";
 		};
 		43B9AC8AB507DE79750E724434BB723C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -607,7 +597,6 @@
 		B3083DD60FD065BAC995C4F734FDB8D6 /* NUIPWhiteSpaceToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPWhiteSpaceToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPWhiteSpaceToken.m"; sourceTree = "<group>"; };
 		B341816042D71D9E280660690187659E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		B3B7F1814C726C354592F1CB6C69C9FD /* Pods_MoolaLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoolaLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C624CBE693F5374A28E512BD4E16C0 /* MoolaLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoolaLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B6280C24FC8EDD7666A084B4A01109 /* NUIPQuotedRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPQuotedRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPQuotedRecogniser.m"; sourceTree = "<group>"; };
 		B5BEF8321FDBC65E2FB52F7415C12C66 /* NUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUI-umbrella.h"; sourceTree = "<group>"; };
 		B5D7E00CB310253619021BE04EF32F24 /* Pods-MoolaLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoolaLib_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -749,13 +738,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35FDA97B48B5AC30B0A8431CB5EBF133 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2B5922E295CE24108FC3AFEA6950363 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -913,7 +895,6 @@
 			isa = PBXGroup;
 			children = (
 				F12AAA05E398B68C59E38A20D73154DB /* Masonry.framework */,
-				B3C624CBE693F5374A28E512BD4E16C0 /* MoolaLib.bundle */,
 				0C0830DD19EDF1A8F6986A8FC9A3C9A3 /* MoolaLib.framework */,
 				36570B91790011315A2D43EA0C503CB1 /* NUI.framework */,
 				79BD85750F842C21ED9BAB17AD4EDE2C /* NUIParse.framework */,
@@ -1529,23 +1510,6 @@
 			productReference = 36570B91790011315A2D43EA0C503CB1 /* NUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2E7A95A0D58E286B512DCA81DB506B85 /* MoolaLib-MoolaLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6F4195E8D76CAB4F1D7BD4A76E1E772 /* Build configuration list for PBXNativeTarget "MoolaLib-MoolaLib" */;
-			buildPhases = (
-				B93A9EE3D3A675E671F07A8D21431FEA /* Sources */,
-				C2B5922E295CE24108FC3AFEA6950363 /* Frameworks */,
-				883DCF586FCA6ABDCDCF4CE77CB0EB76 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MoolaLib-MoolaLib";
-			productName = "MoolaLib-MoolaLib";
-			productReference = B3C624CBE693F5374A28E512BD4E16C0 /* MoolaLib.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		91A0AD30CE702F8DF3A1276B6A4F89A3 /* Pods-MoolaLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88CEFAEBA9E7825FC3E84C0A14C45685 /* Build configuration list for PBXNativeTarget "Pods-MoolaLib_Tests" */;
@@ -1598,7 +1562,6 @@
 			);
 			dependencies = (
 				895F008BFFDB901047070E5097866A01 /* PBXTargetDependency */,
-				243EF658678EB1A8F7B4390EB20FCEDC /* PBXTargetDependency */,
 				2ED115D492A7B01D967481DB19450E33 /* PBXTargetDependency */,
 				50305EFA08550BBE7747D6D8480ED542 /* PBXTargetDependency */,
 				CB8A6A9F7691012000A0963025855CAB /* PBXTargetDependency */,
@@ -1648,7 +1611,6 @@
 			targets = (
 				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
 				C683D9B9E5BD0E160A76D163B57ED6D9 /* MoolaLib */,
-				2E7A95A0D58E286B512DCA81DB506B85 /* MoolaLib-MoolaLib */,
 				235D311CF245D4493873FE5D3987ED2C /* NUI */,
 				13BB9B5CE74431D3F6970A8E6ABD7D86 /* NUIParse */,
 				91A0AD30CE702F8DF3A1276B6A4F89A3 /* Pods-MoolaLib_Tests */,
@@ -1674,22 +1636,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883DCF586FCA6ABDCDCF4CE77CB0EB76 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28A2332A1F428385007DB077 /* Icon.xcassets in Resources */,
-				28A233291F428381007DB077 /* DISStyle.nss in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD1FCCAEB44870BD388899837E3D0E6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28A2332C1F4286FD007DB077 /* DISStyle.nss in Resources */,
 				28A2332B1F4286FA007DB077 /* Icon.xcassets in Resources */,
-				75C172617FD1E89BDDAACDF5F85A23EA /* MoolaLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1808,13 +1760,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B93A9EE3D3A675E671F07A8D21431FEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE59BE45BD1FDDB18732DB5F6A3AE49D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1879,12 +1824,6 @@
 			name = NUIParse;
 			target = 13BB9B5CE74431D3F6970A8E6ABD7D86 /* NUIParse */;
 			targetProxy = B374D26E64224560576F081465FE1B71 /* PBXContainerItemProxy */;
-		};
-		243EF658678EB1A8F7B4390EB20FCEDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MoolaLib-MoolaLib";
-			target = 2E7A95A0D58E286B512DCA81DB506B85 /* MoolaLib-MoolaLib */;
-			targetProxy = 31658F9DBA3C688813917DF9A818F14B /* PBXContainerItemProxy */;
 		};
 		2ED115D492A7B01D967481DB19450E33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2160,40 +2099,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		77A7A82BA551062A12ED0E8C2BFEE483 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7408117B4ACB6E17F8B7EB70911B620 /* MoolaLib.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MoolaLib";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/MoolaLib/ResourceBundle-MoolaLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MoolaLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7A8BB970674790A9FF8E26D8790D2A7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7408117B4ACB6E17F8B7EB70911B620 /* MoolaLib.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MoolaLib";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/MoolaLib/ResourceBundle-MoolaLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MoolaLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -2523,15 +2428,6 @@
 			buildConfigurations = (
 				BDC58AD7E8791D359B02A0A8B4DAEC31 /* Debug */,
 				778BC35E0AE9CE06089919EBD450F1D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C6F4195E8D76CAB4F1D7BD4A76E1E772 /* Build configuration list for PBXNativeTarget "MoolaLib-MoolaLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77A7A82BA551062A12ED0E8C2BFEE483 /* Debug */,
-				7A8BB970674790A9FF8E26D8790D2A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
